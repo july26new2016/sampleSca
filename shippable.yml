@@ -1,6 +1,9 @@
 language: scala
 
 scala: 2.11.1
+env:
+  - secure: aC2MxsR1UFcwa7hQNoC44y4UwQUdXq2oNt6G/qmlLLbRJ5oucKn+U7Z4glCabwgIEaGs2cXuVFuSVGEW+45Jgs0c/bRwnkQ9Fedw0ab2enxvsgxpV6iMre6hqAjIdk1myKGB7uxVWAniW6TIc2AwjxYweWmY1Gvrp4lwxBT/6h7/d6T/s4w9RcKle8Ouok61rrXD8Jw96RN5xaccVjLm7BQmjYVLlKeK1uP4pbRlRwKGbwl+U5XHE+ajdEEVxOp+bFiQHL7VTa13DMnddTzYnXZFptO1W0qC3ZCd46a2J7+tB0O0OqbCJHeyQL42oeZ39rt44/GItKMFSKuOXrNjHg==
 build:
  ci:
    - java -version
+   - echo $key21
